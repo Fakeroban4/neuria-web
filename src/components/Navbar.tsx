@@ -44,6 +44,12 @@ export default function Navbar() {
           >
             Contáctanos
           </Link>
+          <Link
+            href="/suscribite"
+            className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-background transition hover:bg-white/85"
+          >
+            Suscribite
+          </Link>
         </div>
 
         <button
@@ -80,6 +86,13 @@ export default function Navbar() {
             onClick={() => setOpen(false)}
           >
             Contáctanos
+          </Link>
+          <Link
+            href="/suscribite"
+            className="mt-2 rounded-full bg-white px-4 py-2 text-center text-sm font-semibold text-background"
+            onClick={() => setOpen(false)}
+          >
+            Suscribite
           </Link>
         </div>
       )}
