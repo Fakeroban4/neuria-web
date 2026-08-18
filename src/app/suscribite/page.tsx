@@ -29,9 +29,14 @@ export default function SuscribitePage() {
 
         <section className="mx-auto max-w-lg px-6 pb-24">
           <div className="rounded-2xl border border-panel-border bg-panel/50 p-8">
-            <p className="text-xs font-semibold uppercase tracking-widest text-accent-light">
-              Plan completo
-            </p>
+            <div className="flex items-baseline justify-between gap-3">
+              <p className="text-xs font-semibold uppercase tracking-widest text-accent-light">
+                Plan completo
+              </p>
+              <p className="text-2xl font-extrabold text-gradient">
+                US$60<span className="text-sm font-medium text-muted">/mes</span>
+              </p>
+            </div>
             <p className="mt-3 text-sm text-muted">Suscripción mensual</p>
 
             <ul className="mt-6 space-y-3">
